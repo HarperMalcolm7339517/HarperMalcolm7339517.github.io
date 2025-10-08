@@ -31,7 +31,11 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+createPlatform(x, y, 124, 17);
+createPlatform(x, y, 220, 12);  
+createPlatform(x, y, 290, 20); 
+createPlatform(x, y, 147, 13); 
+createPlatform(x, y, 234, 15); 
 
 
 
