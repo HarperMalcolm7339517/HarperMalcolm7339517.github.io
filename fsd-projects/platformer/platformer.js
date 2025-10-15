@@ -58,6 +58,6 @@ createCollectable("grace", 400, 70);
 
   registerSetup(setup);
 });
-createCannon("left", 100, 700);
-createCannon("top", 1000, 400);
-createCannon("bottom", 500, 300);
+createCannon("left", 490, 1200);
+createCannon("top", 1000, 1200);
+createCannon("top", 300, 700);
