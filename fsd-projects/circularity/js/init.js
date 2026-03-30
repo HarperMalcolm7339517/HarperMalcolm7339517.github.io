@@ -71,11 +71,13 @@ physikz.updatePosition(circles[i]);
 
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[ 0 ])
-game.checkCirclePosition(circles[ 1 ])
-game.checkCirclePosition(circles[ 2 ])
-game.checkCirclePosition(circles[ 3 ])
-game.checkCirclePosition(circles[ 4 ])
+           for (var i = 0; i < circles.length; i++) {
+
+physikz.updatePosition(circles[i]);
+
+game.checkCirclePosition(circles[i]);
+
+}
 
             // TODO 8 / TODO 9 : Iterate over the array
            
